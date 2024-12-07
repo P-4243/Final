@@ -1,0 +1,70 @@
+
+.whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
+  
+  
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border:none;
+ outline:none;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #7d4cdb; /* Crowdfunding-themed purple highlight */
+  outline: none;
+  box-shadow: 0 0 5px rgba(125, 76, 219, 0.5); /* Glow effect */
+}
+
+form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #7d4cdb;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #5b2c9b; /* Darker purple on hover */
+}
+
+form p {
+  text-align: center;
+  color: #7d4cdb;
+  margin: 1rem 0 0;
+}
+
+form p:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #7d4cdb;
+}
+
+a:hover {
+  color: #5b2c9b;
+}
+
+
+

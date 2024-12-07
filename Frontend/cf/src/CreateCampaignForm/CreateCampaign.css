@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  h2 {
+    color:#7d4cdb;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 5vw;
+  }
+ 
+  .form-group {
+    margin:0 15vw;
+  
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea, select, button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+
+  .imageIn {
+   
+    color: #7d4cdb;
+    background-color: white;
+   
+    cursor: pointer;
+    text-align: center;
+   
+  }
+  
+  .imageIn::file-selector-button {
+   background-color: white;
+    color: black; /* White text for contrast */
+    border: 2px solid #7d4cdb;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  
